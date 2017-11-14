@@ -1,4 +1,4 @@
-## Pipeline zeppelin test notebooks
+## Pipeline Zeppelin test notebooks
 Apache Zeppelin test notebook to trigger Pipeline
 
 ### How to use the tera-gen notebook
