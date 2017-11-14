@@ -6,8 +6,8 @@ Apache Zeppelin test notebook to trigger Pipeline
 In order for the tera-gen Zeppelin notebook to work the following prerequisites need to be satisfied:
 
 * the patched tera gen application needs to be available on the driver pod
-1. the jar is available in the s3: https://s3.amazonaws.com/lp-deps-test/libs/spark-terasort-1.1-SNAPSHOT.jar
-2. this needs to be available in the driver pod at: "/tmp/spark-terasort-1.1-SNAPSHOT.jar (otherwise the notebook needs to be corrected)
+* the jar is available in the s3: https://s3.amazonaws.com/lp-deps-test/libs/spark-terasort-1.1-SNAPSHOT.jar
+* this needs to be available in the driver pod at: "/tmp/spark-terasort-1.1-SNAPSHOT.jar (otherwise the notebook needs to be corrected)
 * the user's aws credentials need to be added to the notebook
 * the amount of data to be generated and the location of the generated data needs to be added to the last paragraph
 
